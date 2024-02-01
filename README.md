@@ -17,10 +17,14 @@ The model is trained for 2 sessions, each consisting of 5 epochs with a validati
 ## Training Analysis
 The training history is visualized with plots for gender output accuracy and loss, as well as age output loss. These plots provide insights into the model's performance and convergence during training.
 
-![First 5 epochs results](C:\Users\joseph.ibrahim02\Desktop\Deep Learning\Plots\Picture1.png)(C:\Users\joseph.ibrahim02\Desktop\Deep Learning\Plots\Picture2.png)(C:\Users\joseph.ibrahim02\Desktop\Deep Learning\Plots\Picture3.png)
+**First 5 epochs results:**
+![Picture1](https://github.com/josephib1/Age-and-Gender-detection/assets/105210115/4be266f8-284d-4ea4-8bee-c9cb3eb9292c)
+![Picture2](https://github.com/josephib1/Age-and-Gender-detection/assets/105210115/76b0d8b8-132d-453d-88da-0e4b342350c9)
+![Picture3](https://github.com/josephib1/Age-and-Gender-detection/assets/105210115/f9ea1f8d-7ca3-4040-ba3c-13d149227895)
 
 **Second 5 epochs Results:**
-*Visualization goes here*
+![Picture4](https://github.com/josephib1/Age-and-Gender-detection/assets/105210115/63e1429f-e619-4941-8c00-b75f22000b79)
+![Picture5](https://github.com/josephib1/Age-and-Gender-detection/assets/105210115/a59aaf5f-06fb-4265-a110-c5dbd9765035)
 
 ## Model Evaluation
 The last section of the code demonstrates how to use the trained model for making predictions on new images. A sample image from the 'my image' directory is loaded, preprocessed, and passed through the model. The predicted age and gender are then displayed alongside the input image.
