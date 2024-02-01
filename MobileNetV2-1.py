@@ -11,7 +11,7 @@ from tensorflow import keras
 from tensorflow.keras.applications.mobilenet import preprocess_input
 from keras.models import load_model
 # Load the dataset
-path = 'C:\\Users\\joseph\\Desktop\\UTKFace'
+path = r'PATH TO YOUR DATASET'
 files = os.listdir(path)
 images = []
 ages = []
